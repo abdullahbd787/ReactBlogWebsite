@@ -1,6 +1,6 @@
 import './home.css'
 import Header from '../../header/Header'
-import Posts from './../../post/Posts';
+import Posts from '../../posts/Posts';
 import Sidebar from '../../sidebar/Sidebar';
 
 export default function Home() {
@@ -10,9 +10,6 @@ export default function Home() {
     <div className='home'>
       <Posts/>
       <Sidebar/>
-      <div className="change">
-        <footer>Footer</footer>
-      </div>
     </div>
     </>
   )
